@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 2px solid #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0px;
+}
+img{
+    width: 30%;
+    /* height: 200px; */
+    margin: calc(10%/6);
+}
+
+/* main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+} */
