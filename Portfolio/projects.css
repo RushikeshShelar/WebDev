@@ -6,7 +6,6 @@ html {
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 /* Body */
@@ -21,26 +20,8 @@ body {
     color: blueviolet;
 }
 
-.vertical-title {
-    position: relative;
-    top: 2.6em;
-    right: 2em;
-    width: 150px;
-    font-size: 16px;
-}
-
-.vertical-desc {
-    position: relative;
-    top: 4.4em;
-    right: 3em;
-    width: 150px;
-    font-size: 10px;
-
-}
-
 /* Navbar */
 nav {
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -73,104 +54,12 @@ nav ul li {
     font-size: 1.4rem;
 }
 
-/* Main */
-
-/* First Section */
-.first-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 4.5rem 0;
-}
-
-.left-section {
-    font-size: 1.2rem;
-    width: 50%;
-}
-
-.left-section div {
-    width: 90%;
-    margin: auto;
-}
-
-.left-section .buttons {
-    margin-top: 2.2em;
-}
-
-.left-section .btn {
-    padding: 0.6em;
-    background-color: #1e2167;
-    color: white;
-    border: 2px solid white;
-    border-radius: 10px;
-    font-size: 0.8em;
-    cursor: pointer;
-}
-
-.left-section .btn a {
-    text-decoration: none;
-    color: white
-}
-
-#post {
-    font-size: 2rem;
-}
-
-.right-section {
-    width: 33%;
-
-}
-
-.right-section img {
-    width: 80%;
-    margin: 1rem;
-
-}
-
-main hr {
-    border: 0;
-    background: blueviolet;
-    height: 1.2px;
-    margin: 30px 90px;
-}
-
-/* Skills section */
-.skills {
-    max-width: 75rem;
-    margin: auto;
-    text-align: center;
-    margin-top: 1.2rem;
-}
-
-.skills h2 {
-    text-align: left;
-    margin-bottom: 1rem;
-    font-size: 1.9rem;
-}
-
-.skills-container img {
-    padding: 1.25rem;
-}
-
-.icon {
-    width: 11.875rem;
-    height: 11.25rem;
-}
-
-.icon-card {
-    background-color: #fff;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px #a17a69;
-    padding: 20px;
-    margin: 10px;
-}
-
-
-/* section 3 (projects) */
+/* main */
+/* section */
 .projects {
     max-width: 80vw;
-    height: 70vh;
     margin: auto;
+    margin-top: 2rem;
 }
 
 .projects h2 {
@@ -192,7 +81,7 @@ main hr {
 .project-card {
     background-color: rgb(11, 11, 54);
     border-radius: 11px;
-    box-shadow: 0 3px 10px #fff;
+    box-shadow: 0 3px 10px #4756df;
     padding: 1.5rem;
     margin: 1rem;
 }
@@ -230,26 +119,6 @@ main hr {
     cursor: pointer;
 } */
 
-.view-all {
-    width: 8.6%;
-    margin: auto;
-}
-
-.view-all-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #337ab7;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.view-all-button:hover {
-    background-color: #23527c;
-}
-
 /* Scroll up button */
 .scroll-up {
     position: fixed;
@@ -257,9 +126,11 @@ main hr {
     bottom: 1%;
     cursor: pointer;
 }
-.scroll-up img{
+
+.scroll-up img {
     border-radius: 50%;
 }
+
 .up-arrow {
     width: 3rem;
     height: 3rem;
@@ -268,7 +139,7 @@ main hr {
 /* Footer */
 footer {
     background-color: black;
-
+    height: fit-content;
 }
 
 .footer {
@@ -279,7 +150,6 @@ footer {
 }
 
 footer ul {
-    margin-top: 1rem;
     display: flex;
     justify-content: center;
 }
